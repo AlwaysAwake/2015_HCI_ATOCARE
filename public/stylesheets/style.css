@@ -10,11 +10,36 @@
 }
 
 body {
-  /* min-height: 100%; */
+  min-height: 100%;
   /* position: relative; */
   font-size: 100%;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+/* #F7F7F7 */
+/* #616161 */
+/* #868686 */
+
+.main-header {
+  width: 100%;
+  padding: 20px 10px;
+  height: 80px;
+  background: #868686;
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 80px;
+  background: #868600;
+}
+
+.back-button {
+  position: absolute;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #F7F7F7;
 }
