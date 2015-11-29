@@ -9,8 +9,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  min-height: 100%;
+  height: 100%;
   /* position: relative; */
   font-size: 100%;
   padding: 0;
@@ -21,25 +25,62 @@ body {
 /* #F7F7F7 */
 /* #616161 */
 /* #868686 */
+/* #86837E */
 
 .main-header {
   width: 100%;
   padding: 20px 10px;
   height: 80px;
-  background: #868686;
+  background: #86837E;
 }
 
 .main-container {
   width: 100%;
-  margin-top: 80px;
-  background: #868600;
+  height: 100%;
+  padding: 0 20px;
+  background: #86837E;
 }
 
-.back-button {
+.back-button, .plus-button {
   position: absolute;
+}
+
+.plus-button {
+  top: 20px;
+  right: 10px;
 }
 
 .header-title {
   font-size: 24px;
   color: #F7F7F7;
+}
+
+.fit-to-div {
+  max-width: 100%;
+  height: auto;
+}
+
+.greeting-text {
+  color: #F7F7F7;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icon-list {
+  margin-top: 10px;
+}
+
+.icon-row {
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+.icon-col {
+  padding: 0;
+}
+
+.environment-image {
+  margin-top: 10px;
 }

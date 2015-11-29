@@ -2,4 +2,37 @@ extends layout
 
 block content
   .main-container
-
+    .greeting-text.text-center
+      h2.roboto(style="margin-top: 0; margin-bottom: 15px;") Nice to meet you!
+      h6.roboto If your baby has been suffering from atophic diseases, start with us!
+      h6.roboto Atocare will be a great solution to your baby.
+    .icons.text-center(style="margin-bottom: 15px;")
+      #profile-icon
+        img(src="/images/main/profile_icon.png")
+      .icon-list
+        .row.icon-row
+          .col-xs-3.icon-col
+            a(href="/alarm")
+              img(src="/images/main/alarm_icon.png")
+          .col-xs-3.icon-col
+            a(href="/baby")
+              img(src="/images/main/baby_info_icon.png")
+          .col-xs-3.icon-col
+            a(href="/calendar")
+              img(src="/images/main/calendar_icon.png")
+          .col-xs-3.icon-col
+            a(href="/food")
+              img(src="/images/main/food_icon.png")
+        .row.icon-row
+          .col-xs-3.icon-col
+            a(href="/environment")
+              img(src="/images/main/house_icon.png")
+          .col-xs-3.icon-col
+            a(href="/person/add")
+              img(src="/images/main/person_add_icon.png")
+          .col-xs-3.icon-col
+            a(href="/settings")
+              img(src="/images/main/setting_icon.png")
+          .col-xs-3.icon-col
+            a(href="/statistics")
+              img(src="/images/main/statistics_icon.png")

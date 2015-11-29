@@ -1,6 +1,8 @@
 header.main-header
   if backbutton
     a(href="/")
-      img.back-button(src="/images/back-button.png")
+      img.back-button(src="/images/header/back-button.png")
   .title-frame.text-center
     span.header-title #{title}
+  if plusbutton
+    img.plus-button.pull-right(src="/images/header/plus-button.png")
