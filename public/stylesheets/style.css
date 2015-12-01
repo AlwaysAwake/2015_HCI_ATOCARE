@@ -90,6 +90,43 @@ body {
   margin-top: 10px;
 }
 
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #F7F7F7;
+  padding-bottom: 7px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #F7F7F7;
+  margin-top: 20px;
+}
+
+/* Helper Classes */
+
 .none-padding {
   padding: 0;
 }
+
+.full-width {
+  width: 100%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #F7F7F7;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #F7F7F7;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #F7F7F7;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #F7F7F7;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+

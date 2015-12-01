@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .main-container
+    .row
+      .col-xs-8
+        .row
+          .col-xs-12
+            input.noto.form-input.full-width(type="text", name="name", placeholder="Name")
+          .col-xs-12
+            input.noto.form-input.full-width(type="text", name="surname", placeholder="Surname")
+      .col-xs-4
+        img.fit-to-div(src="/images/baby/picture_icon.png")
+    .row
+      .col-xs-12
+        input.noto.form-input.full-width(type="text", name="careness", placeholder="Careness")
+    .row
+      .col-xs-12
+        input.noto.form-input.full-width(type="text", name="birthday", placeholder="Birthday")
+    .row
+      .col-xs-12
+        input.noto.form-input.full-width(type="password", name="password", placeholder="Password")
+    .row
+      .col-xs-12
+        input.noto.form-input.full-width(type="text", name="information", placeholder="Additional Information")
+    .row(style="margin-top: 50px;")
+      .col-xs-12
+        a(href="/baby/profile")
+          button.roboto(style="font-size: 18px; width: 100%; height: 40px; background: #61605B; color: #F7F7F7; border: none;") REGISTER

@@ -43,6 +43,7 @@ app.get('/', index.view);
 app.get('/statistics', statistics.view);
 app.get('/environment', environment.view);
 app.get('/baby/profile', baby.profileView);
+app.get('/baby/register', baby.registerView);
 app.get('/schedule', schedule.view);
 
 // catch 404 and forward to error handler
