@@ -7,7 +7,7 @@ Authors
        
 
 ## Run
-1. Install Node.js
+1. Install Node.js(http://nodejs.org) or using Homebrew
 2. npm install
 3. execute run.sh(linux) or type "node bin/www" in the console.
 4. Go to http://localhost:3000
