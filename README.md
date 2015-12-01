@@ -10,3 +10,5 @@ Authors
 1. Install Node.js
 2. npm install
 3. execute run.sh(linux) or type "node bin/www" in the console.
+4. Go to http://localhost:3000
+5. Please take a look at chrome mobile view mode(F12)
