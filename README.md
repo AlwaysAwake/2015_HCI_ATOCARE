@@ -2,7 +2,6 @@
 2015 Human-Computer Interaction term project
 
 ## Run
-execute run.sh(linux) or
-type
-node bin/run
-in the console.
+1. Install Node.js
+2. npm install
+3. execute run.sh(linux) or type "node bin/www" in the console.
