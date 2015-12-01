@@ -1,6 +1,8 @@
 ## ATOCARE
-2015 Human-Computer Interaction term project : GROUP J  
-Authors
+2015 Human-Computer Interaction term project : GROUP J
+
+
+### Authors
 * Dong Hyun Koo(2009210036)
 * Dong Hyuk Koo(2011210032)
 * Jina An(2012210067)
