@@ -1,5 +1,5 @@
 ## ATOCARE
-2015 Human-Computer Interaction term project : GROUP J
+2015 Korea University, Human-Computer Interaction term project : GROUP J
 
 
 ### Authors
