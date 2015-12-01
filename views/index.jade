@@ -3,11 +3,9 @@ extends layout
 block content
   .main-container
     .greeting-text.text-center
-      h2.roboto(style="margin-top: 0; margin-bottom: 15px;") Nice to meet you!
-      h4.roboto Suffering atophic diseases?
-      h4.roboto Start with us!
+      h4.roboto(style="margin-top: 0;") Suffering atophic diseases?
       h5.roboto Atocare will be a great solution to your baby.
-    .icons.text-center(style="margin-bottom: 15px;")
+    .icons.text-center(style="margin: 40px 0;")
       #profile-icon
         img(src="/images/main/profile_icon.png")
       .icon-list
@@ -16,10 +14,10 @@ block content
             a(href="/alarm")
               img(src="/images/main/alarm_icon.png")
           .col-xs-3.icon-col
-            a(href="/baby")
+            a(href="/baby/profile")
               img(src="/images/main/baby_info_icon.png")
           .col-xs-3.icon-col
-            a(href="/calendar")
+            a(href="/schedule")
               img(src="/images/main/calendar_icon.png")
           .col-xs-3.icon-col
             a(href="/food")
