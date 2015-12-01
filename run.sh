@@ -1,1 +1,1 @@
-node bin/run
+node bin/www
