@@ -178,6 +178,14 @@ a {
   font-weight: bold;
 }
 
+.color-danger {
+  color: #EB1515;
+}
+
+.color-good {
+  color: #020659;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color:    #F7F7F7;
 }

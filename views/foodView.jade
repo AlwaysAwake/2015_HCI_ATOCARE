@@ -22,6 +22,7 @@ block content
       .col-xs-12
         ul#food-list.greeting-text(style="padding: 5px;")
           each food in foods
+            - var colorClass = (food.danger === 'high' || food.danger === 'bad' ? 'color-danger' : food.danger === 'good' ? 'color-good' : '')
             li.food-list-li
               .row.food-list-item.no-margin
                 .col-xs-4
@@ -29,5 +30,5 @@ block content
                 .col-xs-4
                   h5.roboto #{food.effect}
                 .col-xs-4
-                  h5.roboto #{food.danger}
+                  h5.roboto(class=colorClass) #{food.danger}
   script(src="/javascripts/search.js")
