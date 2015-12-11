@@ -2,13 +2,16 @@
 2015 Korea University, Human-Computer Interaction term project : GROUP J
 
 
-### Authors
+### AUTHORS
 * Dong Hyun Koo(2009210036)
 * Dong Hyuk Koo(2011210032)
 * Jina An(2012210067)
-       
+      
+### NOTE
+Although this is based on web server(Node.js - Express),  
+Originally intended to implement mobile app.
 
-## Run
+### Run
 1. Clone this repo
 2. Install Node.js(http://nodejs.org) on its page or use Homebrew
 3. npm install
