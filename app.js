@@ -10,6 +10,7 @@ var statistics      = require('./routes/statistics');
 var environment     = require('./routes/environment');
 var baby            = require('./routes/baby');
 var schedule        = require('./routes/schedule');
+var alarm           = require('./routes/alarm');
 
 var app = express();
 
@@ -45,6 +46,7 @@ app.get('/environment', environment.view);
 app.get('/baby/profile', baby.profileView);
 app.get('/baby/register', baby.registerView);
 app.get('/schedule', schedule.view);
+app.get('/alarm', alarm.view);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

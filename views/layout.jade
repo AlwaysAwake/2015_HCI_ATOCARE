@@ -20,7 +20,9 @@ html
       =============================================
     script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js")
     script(type="text/javascript", src="/javascripts/switchery.min.js")
+    script(type="text/javascript", src="/javascripts/countdowntimer.js")
     script(type="text/javascript", src="/javascripts/base.js")
   body
-    include header
+    if noHeader != true
+      include header
     block content
