@@ -1,3 +1,3 @@
 exports.view = function(req, res, next) {
-  res.render('environmentView', { title: 'Statistics', backbutton: true, plusbutton: true } );
+  res.render('environmentView', { title: 'Environment', backbutton: true, plusbutton: true } );
 };

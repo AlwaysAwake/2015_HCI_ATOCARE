@@ -3,5 +3,5 @@ exports.profileView = function(req, res, next) {
 };
 
 exports.registerView = function(req, res, next) {
-  res.render('babyRegisterView', { title: 'Baby Register' });
+  res.render('babyRegisterView', { title: 'Baby Register', backbutton: true });
 };
