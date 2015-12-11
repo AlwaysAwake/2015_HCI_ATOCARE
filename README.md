@@ -9,8 +9,9 @@
        
 
 ## Run
-1. Install Node.js(http://nodejs.org) or using Homebrew
-2. npm install
-3. execute run.sh(linux) or type "node bin/www" in the console.
-4. Go to http://localhost:3000
-5. Please take a look at chrome mobile view mode(F12)
+1. Clone this repo
+2. Install Node.js(http://nodejs.org) on its page or use Homebrew
+3. npm install
+4. execute run.sh(linux) or type "node bin/www" in the console
+5. Go to http://localhost:3000
+6. Please take a look at chrome mobile view mode(F12)
