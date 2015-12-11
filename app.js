@@ -50,6 +50,7 @@ app.get('/baby/register', baby.registerView);
 app.get('/schedule', schedule.view);
 app.get('/alarm', alarm.view);
 app.get('/food', food.view);
+app.get('/food/diary', food.registerDiaryView);
 app.get('/settings', settings.view);
 
 // catch 404 and forward to error handler

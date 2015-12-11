@@ -110,6 +110,16 @@ a {
   margin-top: 20px;
 }
 
+.form-textarea {
+  background: transparent;
+  padding: 5px;
+  border: 1px solid #F7F7F7;
+  font-size: 17px;
+  font-weight: 300;
+  color: #F7F7F7;
+  resize: none;
+}
+
 .settings-col {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -121,7 +131,33 @@ a {
   margin-top: 3px;
 }
 
+.styled-select {
+  width: 100%;
+  height: 34px;
+  overflow: hidden;
+  background: url(/images/food/down_arrow_select.jpg) no-repeat right #ddd;
+  border: 1px solid #ccc;
+}
+
+.styled-select select {
+  background: transparent;
+  width: 100%px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+}
+
+
+
 /* Helper Classes */
+
+.no-margin {
+  margin: 0;
+}
 
 .no-padding {
   padding: 0;
@@ -150,3 +186,8 @@ input:focus, textarea:focus {
   outline: none;
 }
 
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
