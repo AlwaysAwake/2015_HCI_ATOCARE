@@ -151,20 +151,31 @@ a {
   -webkit-appearance: none;
 }
 
+#food-list {
+  border: 1px solid #F7F7F7;
+  list-style-type: none;
+}
 
+.food-list-item {
+  border-bottom: 1px solid #F7F7F7;
+}
 
 /* Helper Classes */
 
 .no-margin {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .no-padding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .full-width {
   width: 100%;
+}
+
+.font-bold {
+  font-weight: bold;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */

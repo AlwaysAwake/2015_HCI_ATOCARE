@@ -1,3 +1,33 @@
 extends layout
 
 block content
+  .main-container(style="height: 100%;")
+    .row
+      .col-xs-12
+        a(href="/food/diary")
+          button.roboto(style="font-size: 18px; width: 100%; height: 40px; background: #61605B; color: #F7F7F7; border: none;") New Diary
+    .row
+      .col-xs-12.text-center
+        input#search-box.form-input(type="search", placeholder="Search foods by name")
+    .row.greeting-text(style="margin-top: 20px; padding: 0 15px;")
+      .col-xs-12(style="border: 1px solid #F7F7F7;")
+        .col-xs-4
+          h5.roboto.font-bold(style="margin-bottom: 2px;") Food
+          h5.roboto.font-bold(style="margin-top: 0;") (ingredients)
+        .col-xs-4
+          h5.roboto.font-bold Effect
+        .col-xs-4
+          h5.roboto.font-bold Danger
+    .row
+      .col-xs-12
+        ul#food-list.greeting-text(style="padding: 5px;")
+          each food in foods
+            li.food-list-li
+              .row.food-list-item.no-margin
+                .col-xs-4
+                  h5.roboto #{food.name}
+                .col-xs-4
+                  h5.roboto #{food.effect}
+                .col-xs-4
+                  h5.roboto #{food.danger}
+  script(src="/javascripts/search.js")
