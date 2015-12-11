@@ -11,6 +11,8 @@ var environment     = require('./routes/environment');
 var baby            = require('./routes/baby');
 var schedule        = require('./routes/schedule');
 var alarm           = require('./routes/alarm');
+var food            = require('./routes/food');
+var settings        = require('./routes/settings');
 
 var app = express();
 
@@ -47,6 +49,8 @@ app.get('/baby/profile', baby.profileView);
 app.get('/baby/register', baby.registerView);
 app.get('/schedule', schedule.view);
 app.get('/alarm', alarm.view);
+app.get('/food', food.view);
+app.get('/settings', settings.view);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

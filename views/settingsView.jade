@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .main-container
+    .row(style="padding: 0 10px;")
+      .col-xs-12.settings-col
+        h4.noto.greeting-text(style="display: inline-block;") 긴급 매너모드
+        input.js-switch(type="checkbox", checked)
+      .col-xs-12.settings-col
+        h4.noto.greeting-text(style="display: inline-block;") 새로 디바이스 연결
+      .col-xs-12.settings-col
+        h4.noto.greeting-text(style="display: inline-block;") 연결된 디바이스 설정
+      .col-xs-12.settings-col
+        h4.noto.greeting-text(style="display: inline-block;") 디바이스 제거
+      .col-xs-12.settings-col
+        h4.noto.greeting-text(style="display: inline-block;") 실시간 데이터 전송
+        input.js-switch(type="checkbox")
+      script.
+        var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+        elems.forEach(function(html) {
+          var switchery = new Switchery(html);
+        });

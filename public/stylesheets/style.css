@@ -110,6 +110,17 @@ a {
   margin-top: 20px;
 }
 
+.settings-col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F7F7F7;
+}
+
+.switchery {
+  float: right;
+  margin-top: 3px;
+}
+
 /* Helper Classes */
 
 .none-padding {
